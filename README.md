@@ -16,6 +16,7 @@ in the future:
   1. https://www.freecodecamp.org
   2. https://www.codewars.com
   3. https://leetcode.com
+  4. from Lighthouse Labs Exercises
  
 Also, helping aspiring Web Developer discover / practice / enhance 
 their problem solving skills is another reason why I created this
