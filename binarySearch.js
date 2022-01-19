@@ -40,3 +40,34 @@ let costcoQueNum = [23, 24, 30, 33, 37, 50, 57, 60];
 console.log(binarySearch(finalGrades, 90)); //Return true
 console.log(binarySearch(jerseyNumber, 23)); //Return false
 console.log(binarySearch(costcoQueNum, 60)); //Return true
+
+// This is also a Binary Search Algorithm (solution from LHL)
+// This one will return the index of the target value
+
+/*
+// Binary Search Function
+function search(array, item) {
+  let min = 0;
+  let max = array.length - 1;
+
+  while (true) {
+    const middleIndex = Math.floor((min + max) / 2.0);
+    const currentItem = array[middleIndex];
+
+    if (currentItem === item) {
+      // Found it
+      return middleIndex;
+    } else if (currentItem < item) {
+      // Look at the right side
+      min = middleIndex + 1;
+    } else {
+      // Look at the left side
+      max = middleIndex - 1;
+    }
+
+    if (min > max) {
+      return null;
+    }
+  }
+}
+*/

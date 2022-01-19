@@ -1,4 +1,4 @@
-//Repeat a String
+https://github.com/oddporson?tab=repositories//Repeat a String
 /*
 Pseudocode:
 1. A function with parameter - string and number
