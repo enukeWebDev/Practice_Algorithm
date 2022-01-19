@@ -1,3 +1,4 @@
+//From FCC
 //Truncate a string Algorithm
 /*
 Pseudocode:

@@ -1,3 +1,4 @@
+//From FCC
 //Find the longest word length Algorithm
 const findLongestWordLength = str => {
   let newStr = str.split(' ');

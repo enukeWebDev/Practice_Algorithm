@@ -1,4 +1,4 @@
-https://github.com/oddporson?tab=repositories//Repeat a String
+//From FCC
 /*
 Pseudocode:
 1. A function with parameter - string and number

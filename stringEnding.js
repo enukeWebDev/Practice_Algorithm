@@ -1,3 +1,4 @@
+//From FCC
 //Merry Christmas - don't skip Algorithm per Day!
 //Confirm ending of a string Algorithm
 /*
@@ -16,20 +17,20 @@ Pseudocode:
 */
 
 const confirmEnding = (str, target) => {
-  let newStrLength = str.length - target.length;
-  let newStr = str.slice(newStrLength);
-  /*
-  Using only one placeholder solution
+   let newStrLength = str.length - target.length;
+   let newStr = str.slice(newStrLength);
+   /*
+   Using only one placeholder solution
+ 
+   let newStr = str.slice(str.length - target.length);
+ 
+   ...then if/else statement here
+   */
 
-  let newStr = str.slice(str.length - target.length);
-
-  ...then if/else statement here
-  */
-
-  if (newStr === target) {
-    return true;
-  } else
-    return false;
+   if (newStr === target) {
+      return true;
+   } else
+      return false;
 }
 
 //Tests

@@ -1,3 +1,4 @@
+//From FCC
 //Title case Algorithm
 
 const titleCase = str => {
